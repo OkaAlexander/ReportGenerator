@@ -13,7 +13,7 @@ export function Sidebar() {
   return (
     <div className="w-64 bg-card shadow-md h-screen overflow-y-auto">
       <div className="p-4">
-        <h1 className="text-2xl font-bold text-primary">Menu</h1>
+        <h1 className="text-2xl font-bold text-primary">UENR</h1>
       </div>
       <nav className="mt-8">
         <ul>
