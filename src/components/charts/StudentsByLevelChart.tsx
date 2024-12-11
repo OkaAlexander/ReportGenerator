@@ -35,7 +35,7 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 export function StudentsByLevelChart() {
   const [selectedYear, setSelectedYear] = useState("2023");
 
-  const _ = allData.find((d) => d.year === selectedYear);
+  // const _ = allData.find((d) => d.year === selectedYear);
   return (
     <Card className="w-full h-[400px]">
       <CardContent className="p-6 h-full">
