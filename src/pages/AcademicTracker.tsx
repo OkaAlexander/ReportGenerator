@@ -19,7 +19,7 @@ export function AcademicTracker() {
         <div>
           <Card>
             <CardHeader>
-              <CardTitle>Students by Gender</CardTitle>
+              <CardTitle> Gender-based student report</CardTitle>
             </CardHeader>
             <CardContent>
               <StudentsByGenderChart />
@@ -29,7 +29,7 @@ export function AcademicTracker() {
         <div>
           <Card>
             <CardHeader>
-              <CardTitle>Students by Department</CardTitle>
+              <CardTitle>Department-based student report</CardTitle>
             </CardHeader>
             <CardContent>
               <StudentsByDepartmentChart />
@@ -39,7 +39,7 @@ export function AcademicTracker() {
         <div>
           <Card>
             <CardHeader>
-              <CardTitle>Students by Academic Year</CardTitle>
+              <CardTitle>Academic Year-based student report</CardTitle>
             </CardHeader>
             <CardContent>
               <StudentsByYearChart />
@@ -49,7 +49,7 @@ export function AcademicTracker() {
         <div>
           <Card>
             <CardHeader>
-              <CardTitle>Students by Level</CardTitle>
+              <CardTitle>Level-based student report</CardTitle>
             </CardHeader>
             <CardContent>
               <StudentsByLevelChart />
@@ -59,7 +59,7 @@ export function AcademicTracker() {
         <div>
           <Card>
             <CardHeader>
-              <CardTitle>Continuing Students</CardTitle>
+              <CardTitle>Completed and inprogress students</CardTitle>
             </CardHeader>
             <CardContent>
               <ContinuingStudentsChart />
@@ -69,7 +69,7 @@ export function AcademicTracker() {
         <div>
           <Card>
             <CardHeader>
-              <CardTitle>Lecturers by Department</CardTitle>
+              <CardTitle>Department-based lecturars report</CardTitle>
             </CardHeader>
             <CardContent>
               <LecturersByDepartmentChart />
