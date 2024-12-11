@@ -11,7 +11,7 @@ export default function AppRouter() {
         <Routes>
           <Route path="/" element={<AcademicTracker />} />
           <Route path="/admissions" element={<Admissions />} />
-          <Route path="/fees-payment" element={<FeePayment />} />
+          <Route path="/fee-payment" element={<FeePayment />} />
         </Routes>
       </Layout>
     </HashRouter>
